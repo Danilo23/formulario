@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles/estilos.css">
+        <title>Contacteme</title>
+        <body>
+            <div class="centradora centrar">
+                <h2>Contacteme</h2>
+                <form action="https://gemetech.co/mail/mail.php" method="POST">
+                    
+                    <label for="usuario">Ingrese su nombre:</label><br>
+                    <input type="text" name="nombre" placeholder="Aqui su nombre" maxlength="40" id="usuario" required>
+                    <br><br>
+        
+                    <label for="email">Ingrese su correo</label><br>
+                    <input type="email" name="destinatario" placeholder="Aqui su correo" maxlength="40" id="email" required>
+                    <br><br>
+
+                    <label for="subject">Asunto:</label><br>
+                    <input type="text" name="asunto" placeholder="Aqui su asunto" maxlength="40" id="subject" required>
+                    <br><br>
+        
+                    <label for="message">Ingrese su mensaje:</label><br>
+                    <textarea name="mensaje" id="message" required></textarea>
+                    <br><br>
+                    <button type="submit" class="boton">Enviar</button>
+                </form>
+            </div>
+        </body>
+    </head>
+</html>
